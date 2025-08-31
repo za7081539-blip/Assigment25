@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(to right, #007BFF, #87CEFA);
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #8e1616;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    width: 80%;
+    border-radius: 50px;
+    margin-left: 10%;
+}
+
+.contact-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 30px 0 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #007BFF;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
